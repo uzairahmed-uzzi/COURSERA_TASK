@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Web App - Simple Interest Calculator</title>
+</head>
+
+<body>
+    <div class="maindiv">
+        <h1>Simple Interest Calculator</h1>
+
+        <div id="amountdiv">
+            Amount <input type="number" id="principal">
+        </div>
+
+        <div id="ratediv">
+            Rate <input type="range" id="rate" step="0.25" min="1" max="20" value="10.25" onchange="updateRate()"> <span id="rate_val"> 10.25%</span>
+        </div>
+
+        <div id="yearsdiv">
+            No. of Years <select id="years">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                
+                <!-- fill in the rest of the values-->
+            </select>
+        </div>
+
+        <div id="interest">
+            <span id="result"></span>
+        </div>
+
+        <button onclick="compute()">Compute Interest</button>
+
+        <footer>
+
+            &#169; Every Can Get Rich<br>This Calculator belongs to Uzair Ahmed
+
+
+        </footer>
+    </div>
+
+</body>
+
+</html>

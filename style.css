@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    font-family: arial;
+    color: white
+}
+
+h1 {
+    color: grey;
+    font-family: verdana
+}
+
+.maindiv {
+    margin: 120px auto 0 auto;
+    background-color: white;
+    color: black;
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+input,
+select {
+    margin-left: 15%;
+}
+
+#amountdiv>input {
+    margin-left: 11%;
+}
+
+#yearsdiv>select {
+    margin-left: 5%;
+}
+
+.spans {
+    background-color: yellow;
+}
+
+.maindiv>div {
+    margin: 2%;
+}
